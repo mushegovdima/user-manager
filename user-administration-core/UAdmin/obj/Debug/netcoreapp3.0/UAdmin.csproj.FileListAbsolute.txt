@@ -1,0 +1,8 @@
+C:\Global\user-administration\UAdmin\bin\Debug\netcoreapp3.0\UAdmin.deps.json
+C:\Global\user-administration\UAdmin\bin\Debug\netcoreapp3.0\UAdmin.dll
+C:\Global\user-administration\UAdmin\obj\Debug\netcoreapp3.0\UAdmin.AssemblyInfoInputs.cache
+C:\Global\user-administration\UAdmin\obj\Debug\netcoreapp3.0\UAdmin.AssemblyInfo.cs
+C:\Global\user-administration\UAdmin\bin\Debug\netcoreapp3.0\UAdmin.pdb
+C:\Global\user-administration\UAdmin\obj\Debug\netcoreapp3.0\UAdmin.dll
+C:\Global\user-administration\UAdmin\obj\Debug\netcoreapp3.0\UAdmin.pdb
+C:\Global\user-administration\UAdmin\obj\Debug\netcoreapp3.0\UAdmin.csprojAssemblyReference.cache

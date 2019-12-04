@@ -1,0 +1,46 @@
+<mat-card-header>
+    <mat-toolbar class="toolbar content">
+        <mat-card-title> 
+            <div class="content">
+                    {{ this.getTitle() }}
+            </div> </mat-card-title>
+    </mat-toolbar>
+</mat-card-header>
+<mat-card-content>
+    <div >
+        <form [formGroup]="this.userForm" (submit)="onSubmit()">
+            <div class="container">
+                <input type="hidden" formControlName="id" class="form-control">
+                <mat-form-field>
+                    <input matInput formControlName="login" placeholder="Login" [readonly]='this.data.id !== 0 && this.data.login'>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput formControlName="name" placeholder="User name">
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput type='email' formControlName="email" placeholder="Email">
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput type="password" formControlName="password" placeholder="Password">
+                </mat-form-field>
+                        
+                <mat-form-field>
+                        <mat-label>Roles</mat-label>
+                        <mat-select [formControl]="this.rolesControl" multiple [compareWith]="compareIds">
+                          <mat-option *ngFor="let role of this.roles" [(value)]="role">{{role.name}}</mat-option>
+                        </mat-select>
+                </mat-form-field>
+            </div>
+            <div class="content">
+                <button mat-button type="submit" class="btn btn-success">
+                    Save
+                    <mat-icon>save</mat-icon>
+                </button>
+                <button mat-button class="btn btn-cancel" (click)="this.onNoClick()">
+                    Cancel
+                    <mat-icon>cancel</mat-icon>
+                </button>
+            </div>
+        </form>
+    </div>
+</mat-card-content>

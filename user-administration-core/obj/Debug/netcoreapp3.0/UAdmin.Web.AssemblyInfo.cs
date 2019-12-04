@@ -1,0 +1,4 @@
+
+
+// Создано классом WriteCodeFragment MSBuild.
+

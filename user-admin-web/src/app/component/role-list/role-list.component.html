@@ -1,0 +1,13 @@
+<mat-nav-list>
+    <mat-list-item *ngFor="let role of this.roles">
+        <div class="first"> {{ role.name }} ({{role.users.length}}) </div>
+        <div>
+            <button mat-icon-button title="Delete" (click)="this.delete(role.id)">
+                <mat-icon>delete</mat-icon>
+            </button>
+        </div>
+    </mat-list-item>
+</mat-nav-list>
+<div class="mat-elevation-z8 ">
+    <app-role-editor></app-role-editor>
+</div>

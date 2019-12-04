@@ -1,0 +1,15 @@
+<div class="content">
+    <form [formGroup]="this.roleForm" (submit)="onSubmit()">
+        <div class="content">
+            <mat-form-field>
+                <input matInput formControlName="name" placeholder="Role name">
+            </mat-form-field>
+        </div>
+        <div class="content">
+            <button mat-button type="submit" class="btn btn-success">
+                Add
+                <mat-icon>create</mat-icon>
+            </button>
+        </div>
+    </form>
+</div>
