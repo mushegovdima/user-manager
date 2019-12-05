@@ -1,7 +1,7 @@
 Web-application for user managment.
 
 Frontend: Angular
-Backend: .Net Core + ORM NHibernate + Postgres
+Backend: .Net Core + ORM NHibernate + PostgreSQL
 
 Features:
 - Role managment for Users
