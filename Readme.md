@@ -7,4 +7,4 @@ Features:
 - Role managment for Users
 - One-page application
 
-Author: Mushegov Dmitry mail: mushegovdima@yandex.ru
+Author: Mushegov Dmitry email: mushegovdima@yandex.ru
